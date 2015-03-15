@@ -15,6 +15,4 @@ case "${STATUS}" in
 esac
 
 ID=$(docker inspect --format {{.Id}} $1)
-
 echo "Image path: $BASEPATH/$ID/rootfs/"
-
