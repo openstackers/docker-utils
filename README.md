@@ -27,3 +27,13 @@ day tasks needed by the containers.
    ```
 
 
+* lxc_image_path.sh
+  
+  Prints the container rootfs path
+
+  Sometimes you need to access files on a running container
+
+
+   ```
+   lxc_image_path.sh <container name>
+   ```
